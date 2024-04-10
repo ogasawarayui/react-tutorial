@@ -68,4 +68,14 @@ function App() {
   );
 }
 
+function Calc() {
+  const x = 6;
+  const y = 7;
+  return (
+    <p>
+      {x} * {y} = {x * y}
+    </p>
+  );
+}
+
 export default App;
