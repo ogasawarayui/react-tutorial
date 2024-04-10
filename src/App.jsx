@@ -56,7 +56,7 @@ function Main() {
     <main>
       <section className="section">
         <div className="container">
-          <Gallery />
+          <Gallery urls={urls} />
         </div>
       </section>
     </main>
