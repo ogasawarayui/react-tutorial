@@ -80,7 +80,7 @@ function Form(props) {
 function Main() {
   const [urls, setUrls] = useState(null);
   useEffect(() => {
-    fetchImages("Akita").then((urls) => {
+    fetchImages("shiba").then((urls) => {
       setUrls(urls);
     });
   }, []);
